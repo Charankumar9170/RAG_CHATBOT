@@ -2,4 +2,12 @@
  Create a Parent Directory.
  create virtiual environment  setup - (python3 -m venv venv   )
  Activate virtual environment- (source venv/bin/activate )
+2) Intsall all the required libraries using :
+ python -m pip install -r requirements.txt
+All the versions and names of the required libraries are in requirments.txt
+
+3) For file changing :
+* Change the file name in Indexing.py with new file name under PDF_PATH variable
+* keep the New file inside documents directory and run the Indexing.py from src to Generate chunks and store embedings
+4) Run Main.py to use the chatbot 
  
